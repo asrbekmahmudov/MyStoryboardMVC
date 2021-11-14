@@ -76,7 +76,7 @@ class ContactViewController: BaseViewController, UITableViewDelegate, UITableVie
         let add = UIImage(named: "ic_add")
         navigationItem.leftBarButtonItem = UIBarButtonItem(image: refresh, style: .plain, target: self, action: #selector(leftTapped))
         navigationItem.rightBarButtonItem = UIBarButtonItem(image: add, style: .plain, target: self, action: #selector(rightTapped))
-        title = "Storyboard Post"
+        title = "Storyboard Contact"
     }
     
     func callCreateViewController() {
